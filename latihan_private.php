@@ -59,10 +59,3 @@ class customerOnline extends customer{
 
 $aku = new customerOnline("Rima", "Arzimar", "Bogor", "Indonesia", 16152, "rima@gmail.com");
 echo $aku->getIsi();
-
-//echo $aku->getName();
-//echo $aku->getAddress();
-//echo $aku->getCity();
-//echo $aku->getState();
-//echo $aku->getZipCode();
-//echo $aku->getEmail();
